@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Loopy;
+    src: url(fonts/LOOPY___.ttf);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(1 1 20);
+}
+
+#container
+{
+    display: flex;
+    flex-direction:column ;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color:rgb(10, 10, 31);
+    gap:0px;
+    
+
+}
+#display
+{
+    background-color:rgb(4 57 2 / 79%);
+    padding:auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+ 
+  box-sizing: border-box;
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction:row ;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Loopy;
+  color:black;
+    
+ 
+   
+   
+
+}
+.collumn
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap:0px;
+    
+
+
+}
+.first
+{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap:0px;
+    align-items: center;
+
+
+}
+
+
+button
+{
+    flex-grow: 1;
+   border-style:hidden;
+   
+   border-radius: 0px;
+   background-color: rgba(0,0,0);
+   color:wheat
+}
+h4
+{
+    display: flex;
+    height: 20px;
+    width: auto;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 7px;
+    color:white;
+    gap:2px;
+}
+img
+{
+    width: auto;
+    height: 10px;
+}
+#second 
+{
+    display: flex;
+    flex-direction: row;
+    flex:1 1 auto;
+    
+}
+#equal
+{
+  
+    background-color: rgba(150, 19, 19, 0.616);
+    flex-grow: 5;
+}
+
